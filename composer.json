@@ -1,0 +1,14 @@
+{
+    "name": "danielbachhuber/wp-reset-password-command",
+    "description": "Reset password for one or more WordPress users.",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "~2.5"
+    }
+}
