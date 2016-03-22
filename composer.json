@@ -1,6 +1,6 @@
 {
-    "name": "danielbachhuber/wp-reset-password-command",
-    "description": "Reset password for one or more WordPress users.",
+    "name": "runcommand/reset-passwords",
+    "description": "Reset passwords for one or more WordPress users.",
     "license": "MIT",
     "authors": [],
     "minimum-stability": "dev",
@@ -10,5 +10,10 @@
     "require": {},
     "require-dev": {
         "behat/behat": "~2.5"
+    },
+    "extras": {
+        "commands": [
+            "user reset-passwords"
+        ]
     }
 }
