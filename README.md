@@ -1,18 +1,29 @@
-wp-reset-password-command
-===========================
+reset-passwords
+==========================
 
-Reset password for one or more WordPress users.
+Reset passwords for one or more WordPress users.
 
-[![Build Status](https://travis-ci.org/danielbachhuber/wp-reset-password-command.svg?branch=master)](https://travis-ci.org/danielbachhuber/wp-reset-password-command)
+[![Build Status](https://travis-ci.org/runcommand/reset-passwords.svg?branch=master)](https://travis-ci.org/runcommand/reset-passwords)
 
-Quick links: [Installing](#installing) | [Contributing](#contributing)
+Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contributing)
 
-### Installing
+## Using
 
-`wp user reset-password` requires the latest nightly version of WP-CLI. Update with `wp cli update --nightly`.
 
-Once you've done so, you can install `wp user reset-password` with `wp package install danielbachhuber/wp-reset-password-command`
+~~~
+wp user reset-passwords 
+~~~
 
-### Contributing
 
-Code and ideas are more than welcome. Please [open an issue](https://github.com/danielbachhuber/wp-reset-password-command/issues) with questions, feedback, and violent dissent. Pull requests are expected to include test coverage.
+
+## Installing
+
+This package requires the latest nightly version of WP-CLI. Update with `wp cli update --nightly`.
+
+Once you've done so, you can install this package with `wp package install runcommand/reset-passwords`
+
+## Contributing
+
+Code and ideas are more than welcome.
+
+Please [open an issue](https://github.com/runcommand/reset-passwords/issues) with questions, feedback, and violent dissent. Pull requests are expected to include test coverage.
