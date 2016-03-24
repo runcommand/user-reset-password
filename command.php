@@ -7,6 +7,8 @@ if ( ! class_exists( 'WP_CLI' ) ) {
 /**
  * Reset passwords for one or more WordPress users.
  *
+ * ## OPTIONS
+ *
  * <user>...
  * : Specify one or more user logins or IDs.
  */
