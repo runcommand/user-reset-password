@@ -1,4 +1,4 @@
-reset-passwords
+runcommand/reset-passwords
 ==========================
 
 Reset passwords for one or more WordPress users.
@@ -11,14 +11,19 @@ Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contr
 
 
 ~~~
-wp user reset-passwords 
+wp user reset-passwords <user>...
 ~~~
+
+**OPTIONS**
+
+	<user>...
+		Specify one or more user logins or IDs.
 
 
 
 ## Installing
 
-This package requires the latest nightly version of WP-CLI. Update with `wp cli update --nightly`.
+Installing this package requires WP-CLI v0.23.0 or greater. Update to the latest stable release with `wp cli update`.
 
 Once you've done so, you can install this package with `wp package install runcommand/reset-passwords`
 
