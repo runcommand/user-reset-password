@@ -1,9 +1,9 @@
-runcommand/reset-passwords
-==========================
+runcommand/reset-password
+=========================
 
 Reset passwords for one or more WordPress users.
 
-[![Build Status](https://travis-ci.org/runcommand/reset-passwords.svg?branch=master)](https://travis-ci.org/runcommand/reset-passwords)
+[![Build Status](https://travis-ci.org/runcommand/reset-password.svg?branch=master)](https://travis-ci.org/runcommand/reset-password)
 
 Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contributing)
 
@@ -11,7 +11,7 @@ Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contr
 
 
 ~~~
-wp user reset-passwords <user>...
+wp user reset-password <user>...
 ~~~
 
 **OPTIONS**
@@ -25,10 +25,10 @@ wp user reset-passwords <user>...
 
 Installing this package requires WP-CLI v0.23.0 or greater. Update to the latest stable release with `wp cli update`.
 
-Once you've done so, you can install this package with `wp package install runcommand/reset-passwords`
+Once you've done so, you can install this package with `wp package install runcommand/reset-password`
 
 ## Contributing
 
 Code and ideas are more than welcome.
 
-Please [open an issue](https://github.com/runcommand/reset-passwords/issues) with questions, feedback, and violent dissent. Pull requests are expected to include test coverage.
+Please [open an issue](https://github.com/runcommand/reset-password/issues) with questions, feedback, and violent dissent. Pull requests are expected to include test coverage.

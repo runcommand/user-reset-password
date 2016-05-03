@@ -21,4 +21,4 @@ $reset_password_command = function( $args ) {
 	}
 	WP_CLI::success( 'Passwords reset.' );
 };
-WP_CLI::add_command( 'user reset-passwords', $reset_password_command );
+WP_CLI::add_command( 'user reset-password', $reset_password_command );

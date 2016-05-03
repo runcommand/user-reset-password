@@ -1,5 +1,5 @@
 {
-    "name": "runcommand/reset-passwords",
+    "name": "runcommand/reset-password",
     "description": "Reset passwords for one or more WordPress users.",
     "license": "MIT",
     "authors": [
@@ -20,7 +20,7 @@
     },
     "extras": {
         "commands": [
-            "user reset-passwords"
+            "user reset-password"
         ]
     }
 }
