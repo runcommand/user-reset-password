@@ -6,7 +6,7 @@ Feature: Reset passwords for one or more WordPress users.
     When I run `wp user get 1 --field=user_pass`
     Then save STDOUT as {ORIGINAL_PASSWORD}
 
-    When I run `wp user reset-passwords 1`
+    When I run `wp user reset-password 1`
     Then STDOUT should contain:
       """
       Reset password for admin.
