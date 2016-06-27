@@ -1,13 +1,13 @@
 {
     "name": "runcommand/reset-password",
     "description": "Reset passwords for one or more WordPress users.",
+    "homepage": "https://runcommand.io/wp/reset-password/",
     "license": "MIT",
     "authors": [
         {
             "name": "Daniel Bachhuber",
-            "email": "daniel@handbuilt.co",
-            "homepage": "http://runcommand.io",
-            "role": "Developer"
+            "email": "daniel@runcommand.io",
+            "homepage": "https://runcommand.io"
         }
     ],
     "minimum-stability": "dev",
