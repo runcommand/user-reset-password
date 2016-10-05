@@ -1,7 +1,7 @@
 {
-    "name": "runcommand/reset-password",
+    "name": "runcommand/user-reset-password",
     "description": "Reset passwords for one or more WordPress users.",
-    "homepage": "https://runcommand.io/wp/reset-password/",
+    "homepage": "https://runcommand.io/wp/user-reset-password/",
     "license": "MIT",
     "authors": [
         {
