@@ -10,13 +10,16 @@ Quick links: [Using](#using) | [Installing](#installing) | [Support](#support)
 ## Using
 
 ~~~
-wp user reset-password <user>...
+wp user reset-password <user>... [--skip-email]
 ~~~
 
 **OPTIONS**
 
 	<user>...
 		Specify one or more user logins or IDs.
+
+	[--skip-email]
+		Don't send an email notification to the affected user(s).
 
 ## Installing
 
